@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Result</title>
+</head>
+<body>
+    <h2>Quiz Result</h2>
+    <p>User: {{ result.user.username }}</p>
+    <p>Quiz: {{ result.quiz.title }}</p>
+    <p>Score: {{ result.score }}</p>
+    <a href="{% url 'home' %}">Back to Home</a>
+</body>
+</html>
