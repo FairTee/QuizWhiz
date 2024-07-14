@@ -1,0 +1,23 @@
+{
+  "name": "QuizWhiz",
+  "version": "1.0.0",
+  "description": "An interactive quiz application",
+  "main": "App",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FairTee/QuizWhiz"
+  },
+  "keywords": [
+    "quiz",
+    "interactive",
+    "application"
+  ],
+  "author": "FairTee",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
