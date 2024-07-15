@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>QUIZ WHIZ</title>
+  <title>Login - QUIZ WHIZ</title>
   <link rel="stylesheet" href="app.css" />
 </head>
 <body>
@@ -12,12 +12,13 @@
     <a href="/login.html">Login</a>
     <a href="/register.html">Register</a>
   </div>
-  <div class="container">
-    <div id="home" class="flex-center flex-column">
-      <h1>QuizWhiz🤓</h1>
-      <a class="btn" href="/game.html">Play</a>
-      <a class="btn" href="/highscores.html">High Scores</a>
-    </div>
+  <div class="container flex-center flex-column">
+    <h2 class="form-heading">Login</h2>
+    <form action="/login" method="POST">
+      <input type="text" name="username" placeholder="Username" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <button type="submit" class="btn">Login</button>
+    </form>
   </div>
 </body>
 </html>
